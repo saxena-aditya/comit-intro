@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white">
         <div class="mx-auto px-1 py-2 sm:px-2 sm:py-4 lg:max-w-1xl lg:px-8">
-            <div class="mt-3 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
+            <div class="mt-3 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
                 <div v-for="product in productList" :key="product.id" class="group relative cursor-pointer">
                     <div
                         class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-50">
@@ -56,42 +56,5 @@
 </template>
 
 <script setup>
-const productList = [
-    {
-        id: 1,
-        name: "Tien Full Shirt",
-        rating: 4,
-        reviewCount: 24,
-        actualPrice: 15,
-        discountPrice: 30,
-        img: "https://ih1.redbubble.net/image.5099453350.8283/ssrco,slim_fit_t_shirt,womens,fafafa:ca443f4786,front,square_product,600x600.jpg",
-    },
-    {
-        id: 2,
-        name: "Gohan Half Shirt",
-        rating: 5,
-        reviewCount: 78,
-        actualPrice: 17,
-        discountPrice: 25,
-        img: "https://ih1.redbubble.net/image.4561075948.3630/ssrco,classic_tee,womens,fafafa:ca443f4786,front_alt,square_product,600x600.u2.jpg",
-    },
-    {
-        id: 3,
-        name: "Goku Keychain",
-        rating: 4,
-        reviewCount: 45,
-        actualPrice: 90,
-        discountPrice: 120,
-        img: "https://ih1.redbubble.net/image.5577171159.1568/st,small,507x507-pad,600x600,f8f8f8.jpg",
-    },
-    {
-        id: 4,
-        name: "Shien Vest Plates",
-        rating: 3,
-        reviewCount: 23,
-        actualPrice: 30,
-        discountPrice: 37,
-        img: "https://ih1.redbubble.net/image.746781885.8307/st,small,507x507-pad,600x600,f8f8f8.u4.jpg",
-    },
-];
+import { productList } from './../public/data/products.data.js';
 </script>

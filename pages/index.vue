@@ -24,10 +24,10 @@ const update = () => {
                 turning <span class="full-grad">point of inspiration</span> into
                 <span class="full-grad">point of sale</span>
             </div>
-            <div class="bg-white items-center justify-between w-full flex rounded-full shadow-lg p-2 mb-5 sticky sm:w-3/4"
+            <div class="bg-white items-center justify-between w-full flex rounded-full shadow-lg p-2 mb-5 sticky sm:w-3/5"
                 style="top: 5px">
                 <div>
-                    <div class="p-2 mr-1 rounded-full hover:bg-gray-100 cursor-pointer">
+                    <div class="p-2 mr-1 ml-1 rounded-full hover:bg-gray-100 cursor-pointer">
                         <svg class="w-8 h-8 text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                             fill="currentColor">
                             <path fill-rule="evenodd"
@@ -38,11 +38,11 @@ const update = () => {
                 </div>
 
                 <input
-                    class="font-medium rounded-full w-full py-4 pl-4 text-gray-800 leading-tight focus:outline-none focus:shadow-outline lg:text-2xl sm:w-full"
+                    class="font-medium rounded-full w-full py-4 pl-4 text-black leading-tight focus:outline-none focus:shadow-outline lg:text-2xl sm:w-full"
                     type="text" placeholder="Start by typing your brand name" />
 
-                <div class="bg-gray-600 p-2 hover:bg-blue-400 cursor-pointer mx-2 rounded-full">
-                    <svg class="w-14 h-10 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17"
+                <div class="bg-gray-600 p-2 hover:bg-[#f05596] cursor-pointer mx-2 rounded-full">
+                    <svg class="w-12 h-8 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"
                         fill="currentColor">
                         <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
                         <path

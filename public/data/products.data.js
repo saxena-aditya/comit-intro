@@ -1,0 +1,38 @@
+export const productList = [
+    {
+        id: 1,
+        name: "Tien Full Shirt",
+        rating: 4,
+        reviewCount: 24,
+        actualPrice: 15,
+        discountPrice: 30,
+        img: "https://ih1.redbubble.net/image.5099453350.8283/ssrco,slim_fit_t_shirt,womens,fafafa:ca443f4786,front,square_product,600x600.jpg",
+    },
+    {
+        id: 2,
+        name: "Gohan Half Shirt",
+        rating: 5,
+        reviewCount: 78,
+        actualPrice: 17,
+        discountPrice: 25,
+        img: "https://ih1.redbubble.net/image.4561075948.3630/ssrco,classic_tee,womens,fafafa:ca443f4786,front_alt,square_product,600x600.u2.jpg",
+    },
+    {
+        id: 3,
+        name: "Goku Keychain",
+        rating: 4,
+        reviewCount: 45,
+        actualPrice: 90,
+        discountPrice: 120,
+        img: "https://ih1.redbubble.net/image.5577171159.1568/st,small,507x507-pad,600x600,f8f8f8.jpg",
+    },
+    {
+        id: 4,
+        name: "Shien Vest Plates",
+        rating: 3,
+        reviewCount: 23,
+        actualPrice: 30,
+        discountPrice: 37,
+        img: "https://ih1.redbubble.net/image.746781885.8307/st,small,507x507-pad,600x600,f8f8f8.u4.jpg",
+    },
+];

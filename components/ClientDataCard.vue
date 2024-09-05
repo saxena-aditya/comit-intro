@@ -8,13 +8,13 @@ const { imgWidth, imgHeight, item } = defineProps([
 <template>
     <div class="shadow dark:bg-gray-100">
         <a href="#">
-            <img :src="`https://picsum.photos/${imgWidth}/${imgHeight}`" alt="" class="w-full" />
+            <img :src="item.img" alt="" class="w-full" />
         </a>
-
-        <div class="p-3" v-if="!item.fullImage">
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
-                Here are the biggest enterprise technology acquisitions of 2021 so far,
-                in reverse chronological order.
+        <div class="font-bold text-sm text-black pl-2 pt-2" v-if="!item.fullImage">Dragon Ball Z</div>
+        <div class="font-medium text-sm text-gray-500 pl-2" v-if="!item.fullImage">@dbz.tshirts</div>
+        <div class="p-2" v-if="!item.fullImage">
+            <p class="mb-3 font-normal text-gray-900 dark:text-gray-900">
+                {{ item.desc }}
             </p>
         </div>
     </div>
