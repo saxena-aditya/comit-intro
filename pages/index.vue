@@ -28,7 +28,7 @@ const update = () => {
                 style="top: 5px">
                 <div>
                     <div class="p-2 mr-1 rounded-full hover:bg-gray-100 cursor-pointer">
-                        <svg class="w-6 h-6 text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                        <svg class="w-8 h-8 text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                             fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
@@ -39,10 +39,10 @@ const update = () => {
 
                 <input
                     class="font-medium rounded-full w-full py-4 pl-4 text-gray-800 leading-tight focus:outline-none focus:shadow-outline lg:text-2xl sm:w-full"
-                    type="text" placeholder="Start by Typing your brand name" />
+                    type="text" placeholder="Start by typing your brand name" />
 
                 <div class="bg-gray-600 p-2 hover:bg-blue-400 cursor-pointer mx-2 rounded-full">
-                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17"
+                    <svg class="w-14 h-10 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17"
                         fill="currentColor">
                         <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
                         <path
@@ -54,7 +54,7 @@ const update = () => {
                 class="relative mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-xl px-20 py-3 text-center inline-flex items-center me-2 mb-2"
                 v-on:click.prevent="update">
                 <svg v-if="isLoading" aria-hidden="true" role="status"
-                    class="inline w-4 h-4 me-2 text-white animate-spin" viewBox="0 0 100 101" fill="none"
+                    class="inline w-6 h-6 me-2 text-white animate-spin" viewBox="0 0 100 101" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"

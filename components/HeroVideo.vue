@@ -3,7 +3,7 @@
     <div class="w-full bg-gray-400 rounded-full h-1 dark:bg-gray-400 absolute top-0">
       <div class="bg-white h-1 rounded-full animate" :style="{ width: videoProgress + '%' }"></div>
     </div>
-    <video ref="video" autoplay paused @click="toggel" @timeupdate="updateVideoProgress" class="cursor-pointer"
+    <video paused ref="video" autoplay  @click="toggel" @timeupdate="updateVideoProgress" class="cursor-pointer"
       src="https://res.cloudinary.com/di5mptsqz/video/upload/q_auto/f_webm/v1700822389/production/brand_ZTkeeR9tRpRdBKj7/jrpr98ljs5g74rzk3pzx"></video>
     <div>
       <div class="flex flex-col product-container">
