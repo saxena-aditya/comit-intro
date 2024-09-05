@@ -1,7 +1,7 @@
 <template>
   <div class="video-container relative shadow-ld shadow-white">
-    <div class="w-full bg-gray-400 rounded-full h-1 dark:bg-gray-400 absolute top-0 ani">
-      <div class="bg-white h-1 rounded-full ani" :style="{ width: videoProgress + '%' }"></div>
+    <div class="w-full bg-gray-400 rounded-full h-1 dark:bg-gray-400 absolute top-0">
+      <div class="bg-white h-1 rounded-full animate" :style="{ width: videoProgress + '%' }"></div>
     </div>
     <video ref="video" autoplay paused @click="toggel" @timeupdate="updateVideoProgress" class="cursor-pointer"
       src="https://res.cloudinary.com/di5mptsqz/video/upload/q_auto/f_webm/v1700822389/production/brand_ZTkeeR9tRpRdBKj7/jrpr98ljs5g74rzk3pzx"></video>
@@ -97,7 +97,6 @@ const video = ref(null);
 const videoProgress = ref(0);
 
 const updateVideoProgress = () => {
-  console.log("I got invocked");
   if (video.value) {
     const videoPlayer = video.value;
     videoProgress.value = ((videoPlayer.currentTime / videoPlayer.duration) * 100).toFixed(10);
@@ -136,7 +135,7 @@ const toggel = () => {
   padding: 0px 12px;
 }
 
-.ani {
+.animate {
   transition: width 0.3s ease-in-out;
 }
 </style>
